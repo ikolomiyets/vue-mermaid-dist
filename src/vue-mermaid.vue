@@ -89,6 +89,7 @@ export default {
         console.log(code);
         return code;
       } else {
+        this.load(undefined);
         return "";
       }
     }
